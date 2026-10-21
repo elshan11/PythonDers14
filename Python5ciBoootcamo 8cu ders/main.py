@@ -11,7 +11,7 @@
 # for i in range(1,20):
 #     if i%2==0 and i>5:
 #         print("bu eded cutdur:",i)
-
+ssssssss
 dogrlogin="admin"
 dogrupassword="12345"
 xeta=0
