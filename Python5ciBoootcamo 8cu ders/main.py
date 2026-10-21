@@ -1,46 +1,33 @@
-# for i  in 1,2,3,4,5,6,7:
-#     print(i)
-
-# for i in "Python":
-#     print(i)
-
-# for i in range(10,1,-1):
-#     print(i)
-
-
-# for i in range(1,20):
-#     if i%2==0 and i>5:
-#         print("bu eded cutdur:",i)
-ssssssss
-dogrlogin="admin"
-dogrupassword="12345"
-xeta=0
+# for j in range(3):
+#     for i in range(4):
+#         print("j:",j,"i:",i)
 
 # for i in range(3):
-#     login=input("Login daxil et:")
-#     password=input("password daxil edin:")
-#     if login==dogrlogin and password==dogrupassword:
-#         print("Giris ugurludur")
-#         break
+#     for j in range(3):
+#         print("i:",i,"j:",j)
 #     else:
-#         xeta+=1
-#         print("sehv daxil etdiniz:",3-xeta,"xeta haqqiniz qaldi")
-#         print(f"sehv daxil etdiniz:{3-xeta}")
-#     if xeta==3:
-#         print("istifadeci bloklandi, Giris ucun daha cox cehd ede bilmezsiniz")
+#         print("Daxili dovr tamamlanndi")    
 
-   
-
-# for num in range(1,6):
-#     print(f"Dovre daxil olan eded{num}")
 # else:
-#     print("Dovr tamalandi")    
+#     print("Xarici dovr tam bitdi")
 
 
-for num1 in range(1,6):
-    print(num1)
-    if num1==3:
-       
-        break
-else:
-    print("Dovr tamamlandi")    
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(i,"+",j,"=",i+j)
+#     print("---------")    
+
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print("*",end=" ")
+#     print()    
+
+n=5
+
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    for k in range(2*i-1):
+        print("*",end="") 
+    print()    
+
